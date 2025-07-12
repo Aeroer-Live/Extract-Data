@@ -25,8 +25,22 @@ Ideal for users who need to extract and navigate large amounts of data from docu
 ## ⚙️ Tech Stack (Suggested)
 
 - **Frontend**: HTML, CSS, JavaScript (React or Vanilla JS)
-- **Backend**: Node.js / Python (Flask or Django)
+- **Backend**: Python (Flask)
 - **File Processing**: `python-docx`, `openpyxl`, `pandas`, `pdfkit` (for PDF generation)
-- **Storage**: Local or cloud-based file handling (e.g., AWS S3, Firebase)
 
 ## 📁 Folder Structure (Sample)
+
+file-processor-app/
+│
+├── backend/
+│   ├── app.py               # Flask API
+│   ├── parser.py            # Word/Excel file handling logic
+│   └── uploads/             # Temporary uploaded files
+│
+├── frontend/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+│
+├── requirements.txt         # Python dependencies
+└── README.md
