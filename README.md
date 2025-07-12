@@ -30,17 +30,4 @@ Ideal for users who need to extract and navigate large amounts of data from docu
 
 ## 📁 Folder Structure (Sample)
 
-file-processor-app/
-│
-├── backend/
-│   ├── app.py               # Flask API
-│   ├── parser.py            # Word/Excel file handling logic
-│   └── uploads/             # Temporary uploaded files
-│
-├── frontend/
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-│
-├── requirements.txt         # Python dependencies
-└── README.md
+<pre lang="markdown"> ```bash file-processor-app/ │ ├── backend/ │ ├── app.py # Flask API │ ├── parser.py # Word/Excel file handling logic │ └── uploads/ # Temporary uploaded files │ ├── frontend/ │ ├── index.html │ ├── script.js │ └── style.css │ ├── requirements.txt # Python dependencies └── README.md ``` </pre>
